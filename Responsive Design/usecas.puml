@@ -1,0 +1,17 @@
+@startuml
+
+left to right direction
+actor visitor as Av
+
+rectangle responsive {
+    usecase horizontal as Uh
+    usecase adjust as Ua 
+    usecase vertical as Uv
+}
+
+Av --> Uh
+Av --> Uv
+Uh ..> Ua : <<include>>
+Uv ..> Ua : <<include>>
+
+@enduml
