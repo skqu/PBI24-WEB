@@ -1,0 +1,48 @@
+main
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.frame
+{
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 80vw;
+}
+
+
+
+.btn
+{
+    border: none;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-bottom: 8px;
+    padding-right: 24px;
+}
+
+.btn-filled
+{
+    background-color: green;
+    color: white;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: green;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
